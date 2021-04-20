@@ -1,0 +1,25 @@
+.listing-form {
+  margin: 0;
+  padding: 20px 0 0;
+}
+
+.listing-form label {
+  font-weight: 600;
+}
+
+.listing-form input {
+  padding-left: 12px;
+}
+
+.listing-form .error {
+  margin: 0.5rem 0 0;
+  display: none;
+  color: brown;
+}
+.listing-form .error.show {
+  display: block;
+}
+
+.listing-form .btn-submit {
+  margin-top: 20px;
+}

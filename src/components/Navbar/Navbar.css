@@ -1,0 +1,15 @@
+.Navbar .navbar {
+  margin: 32px 0 32px 0;
+  padding: 0;
+  height: 45px;
+}
+
+.Navbar .navbar-brand {
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+
+.Navbar .logo {
+  align-self: center;
+}

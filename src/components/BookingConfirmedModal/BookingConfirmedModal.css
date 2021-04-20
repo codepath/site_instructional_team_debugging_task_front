@@ -1,0 +1,23 @@
+.BookingConfirmed .content {
+  width: 350px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.BookingConfirmed h1 {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 600;
+  color: #373737;
+  margin: 0;
+}
+
+.BookingConfirmed img {
+  margin-bottom: 25px;
+}
+
+.BookingConfirmed .btn {
+  margin-top: 25px;
+}

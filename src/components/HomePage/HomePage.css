@@ -1,0 +1,99 @@
+.home {
+  width: 100%;
+  position: absolute;
+  top: 160px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: calc(100% - 160px);
+}
+
+.home h1 {
+  font-size: 27px;
+  font-weight: 600;
+  color: #202020;
+  width: 70%;
+  margin-bottom: 30px;
+}
+
+.home .splash-image {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  object-fit: cover;
+  vertical-align: bottom;
+
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0) 50%, #ffffff 100%),
+    url(https://images.unsplash.com/photo-1542349301445-c5f6ec562729?ixlib=rb-1.2.1&auto=format&fit=crop&w=2315&q=80)
+      no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.home .popover {
+  padding: 20px;
+  position: relative;
+  width: 100%;
+
+  background: #ffffff;
+  border: 0;
+  box-shadow: 0 15px 35px 0 rgba(50, 50, 93, 0.1), 0 5px 15px 0 rgba(0, 0, 0, 0.07);
+  border-radius: 6px;
+}
+
+@media (min-width: 768px) {
+  .home .popover {
+    padding: 40px;
+    width: 500px;
+    max-width: 500px;
+  }
+}
+.home .booking-form {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.home .button-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.home .annotation {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  min-height: 50px;
+
+  background: #fff;
+  text-align: center;
+  font-size: 12px;
+}
+
+.home .annotation img,
+.home .annotation a,
+.home .annotation p {
+  display: inline-block;
+  margin: 0;
+}
+
+.home .annotation img {
+  margin-right: 10px;
+}
+
+.home .annotation a:link,
+.home .annotation a:visited {
+  color: #32325d;
+}
+
+@media (min-width: 768px) {
+  .home .annotation {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 30px;
+    border-radius: 50px;
+    padding: 10px;
+  }
+}

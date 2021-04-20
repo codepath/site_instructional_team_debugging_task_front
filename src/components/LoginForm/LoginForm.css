@@ -1,0 +1,29 @@
+.login .new-section {
+  margin-top: 16px;
+}
+
+.login .email {
+  /* background: url(../static/email.svg) no-repeat scroll 7px 6px; */
+  background-size: 20px 20px;
+  background-position: 16px 14px;
+}
+
+.login .password {
+  /* background: url(../static/lock.svg) no-repeat scroll 7px 6px; */
+  background-size: 20px 20px;
+  background-position: 16px 14px;
+}
+
+.login .shortcut-buttons {
+  margin: 1rem 0;
+}
+
+.login .error {
+  margin: 0.5rem 0 0;
+  display: none;
+  color: brown;
+}
+
+.login .error.show {
+  display: block;
+}

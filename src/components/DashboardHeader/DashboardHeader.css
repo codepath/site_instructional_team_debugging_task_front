@@ -1,0 +1,86 @@
+.dashboard-header {
+  margin-bottom: 20px;
+  padding-bottom: 0px;
+}
+.nav-tabs {
+  margin: 20px 0;
+  box-sizing: border-box;
+}
+
+.nav-link {
+  text-align: left;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0 8px 8px;
+  margin-right: 24px;
+  color: #484848;
+}
+
+.nav-link:hover {
+  border: 1px solid #fff;
+}
+
+.dashboard-header .nav-link.active {
+  border: #fff;
+  border-bottom: 2px solid #007bff;
+  padding-top: 1px;
+  color: #0055ff;
+}
+.dashboard-header .user-details .avatar {
+  height: 60px;
+  width: 60px;
+  border-radius: 60px;
+  object-fit: cover;
+  align-self: center;
+}
+
+.dashboard-header .user-details {
+  font-size: 14px;
+  padding-bottom: 12px;
+}
+
+.dashboard-header .user-details-body {
+  padding-top: 10px;
+}
+
+.dashboard-header .user-details h5 {
+  font-size: 24px;
+  margin: 0;
+  font-weight: 600;
+}
+
+.dashboard-header .user-details p {
+  font-size: 14px;
+  margin: 0;
+  transform: translateY(-4px);
+  margin-top: 4px;
+}
+
+.dashboard-header .stripe-dashboard {
+  font-size: 12px;
+  padding-top: 4px;
+}
+
+.dashboard-header .stripe-dashboard .label {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+.dashboard-header .stripe-dashboard .balance {
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
+  line-height: 1;
+  font-weight: 600;
+}
+
+.dashboard-header .stripe-dashboard a {
+  font-weight: 500;
+  padding-left: 6px;
+}
+
+.dashboard-header .stripe-dashboard a:hover {
+  text-decoration: none;
+}

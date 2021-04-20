@@ -1,0 +1,22 @@
+.BookingPayment .card-info {
+  margin-bottom: 20px;
+  padding: 10px 10px;
+  height: 44px;
+  border-radius: 6px;
+  box-shadow: 0px 0px 0px 1px rgb(224, 224, 224), 0px 2px 4px 0px rgba(0, 0, 0, 0.07),
+    0px 1px 1.5px 0px rgba(0, 0, 0, 0.05);
+}
+
+.BookingPayment {
+  color: red;
+  padding: 10px;
+}
+
+.BookingPayment {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 14px;
+  font-weight: normal;
+  letter-spacing: -0.15px;
+  text-align: center;
+  margin: 20px 0;
+}

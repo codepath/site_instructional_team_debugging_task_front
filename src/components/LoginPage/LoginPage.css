@@ -1,0 +1,12 @@
+.login-page {
+  width: 100%;
+  position: absolute;
+  top: 110px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.login-page .message {
+  color: red;
+}

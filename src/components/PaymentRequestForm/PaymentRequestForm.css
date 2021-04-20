@@ -1,0 +1,17 @@
+.payment-request-form {
+  max-height: 0px;
+  transition: max-height 0.15s ease-out;
+}
+
+.payment-request-form .ready {
+  max-height: 115px;
+}
+
+.payment-request-form .tip-text {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 14px;
+  font-weight: normal;
+  letter-spacing: -0.15px;
+  text-align: center;
+  margin: 20px 0;
+}

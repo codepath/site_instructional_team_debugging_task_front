@@ -1,0 +1,30 @@
+.signup-form .new-section {
+  margin-top: 16px;
+}
+
+.signup-form .email {
+  /* background: url(../static/email.svg) no-repeat scroll 7px 6px; */
+  background-size: 20px 20px;
+  background-position: 16px 14px;
+}
+
+.signup-form .name {
+  /* background: url(../static/person.svg) no-repeat scroll 7px 6px; */
+  background-size: 20px 20px;
+  background-position: 16px 14px;
+}
+
+.signup-form .password {
+  /* background: url(../static/lock.svg) no-repeat scroll 7px 6px; */
+  background-size: 20px 20px;
+  background-position: 16px 14px;
+}
+
+.signup-form .error {
+  margin: 0.5rem 0 0;
+  display: none;
+  color: brown;
+}
+.signup-form .error.show {
+  display: block;
+}
